@@ -29,10 +29,10 @@ function exibeRespostas(time, vitorias, empates, derrotas, pontuacao) {
 	var respostaPontuacao = document.getElementById("resposta-pontuacao");
 
 	respostaTime.textContent = time;
-	respostaVitorias.textContent = vitorias;
-	respostaEmpates.textContent = empates;
-	respostaDerrotas.textContent = derrotas;
-	respostaPontuacao.textContent = pontuacao;
+	respostaVitorias.textContent = "Vitórias: " + vitorias;
+	respostaEmpates.textContent = "Empates: " + empates;
+	respostaDerrotas.textContent = "Derrotas: " + derrotas;
+	respostaPontuacao.textContent = "Pontuação: " + pontuacao;
 }
 
 var botao = document.querySelector("button");
