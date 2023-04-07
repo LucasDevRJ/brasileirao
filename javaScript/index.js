@@ -29,12 +29,14 @@ function exibeRespostas(time, vitorias, empates, derrotas, pontuacao) {
 	var respostaEmpates = document.getElementById("resposta-empates");
 	var respostaDerrotas = document.getElementById("resposta-derrotas");
 	var respostaPontuacao = document.getElementById("resposta-pontuacao");
+	var respostaRodape = document.getElementById("resposta-rodape");
 
 	respostaTime.textContent = time;
 	respostaVitorias.textContent = "Vitórias: " + vitorias;
 	respostaEmpates.textContent = "Empates: " + empates;
 	respostaDerrotas.textContent = "Derrotas: " + derrotas;
 	respostaPontuacao.textContent = "Pontuação: " + pontuacao;
+	respostaRodape.textContent = "Campeonato Brasileiro";
 }
 
 var botao = document.querySelector("button");
