@@ -13,6 +13,12 @@ function calculaPontuacao() {
 
 	//No Brasileirão tem-se 38 partidas no total
 	var derrotas = ((vitorias + empates) - 38) * -1;
+
+	exibeRespostas(time, vitorias, empates, derrotas, pontuacao);
+}
+
+function exibeRespostas(time, vitorias, empates, derrotas, pontuacao) {
+	
 }
 
 var botao = document.querySelector("button");
