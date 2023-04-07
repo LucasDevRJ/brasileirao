@@ -1,15 +1,17 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-image: url("../imagens/imagem-fundo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .caixa {
-	background-image: url("../imagens/imagem-fundo.jpg");
-}
-
-.caixa-flex {
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 
 .texto {
@@ -45,13 +47,13 @@ body {
 }
 
 .tabela-coluna {
-	width: 50%;
 	padding: 8px 6px;
 	background-color: #FFFAFA;
 }
 
 .tabela-resposta {
 	text-align: center;
+	width: 50%;
 }
 
 .tabela-rodape {
