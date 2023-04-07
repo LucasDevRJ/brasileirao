@@ -73,3 +73,13 @@ body {
 	padding: 8px 6px;
 	background-color: #ADFF2F;
 }
+
+@media screen and (min-width: 280px) and (max-width: 456px) {
+	.botao {
+		width: 50%;
+	}
+
+	.tabela {
+		width: 60%;
+	}
+}
