@@ -1,9 +1,8 @@
-table {
-	border-width: 1px;
-	border-style: solid;
-	width: 40%;
+.texto {
+	font-size: 20px;
 }
 
-tr {
-	border-width: 1px;
+.entrada {
+	padding: 9px 15px;
+	font-size: 17px;
 }
