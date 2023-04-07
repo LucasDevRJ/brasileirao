@@ -20,7 +20,24 @@
 	border: 1px solid;
 }
 
+.coluna-cabecalho {
+	padding: 8px 6px;
+	background-color: #ADFF2F;
+}
+
+.tabela-espaco {
+	padding: 13px 0;
+	background-color: #DCDCDC;
+}
+
 .tabela-coluna {
 	width: 50%;
 	padding: 8px 6px;
+	background-color: #FFFAFA;
+}
+
+.tabela-rodape {
+	text-align: center;
+	padding: 8px 6px;
+	background-color: #ADFF2F;
 }
