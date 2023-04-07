@@ -7,7 +7,9 @@ function calculaPontuacao() {
 	var vitorias = parseInt(campoVitorias.value);
 	var empates = parseInt(campoEmpates.value);
 
-	if (isNaN(vitorias) || isNaN(empates)) {
+	if (time.length == 0) {
+		alert("Digite o nome do time!");
+	} else if (isNaN(vitorias) || isNaN(empates)) {
 		alert("Digite somente números nos campos vitórias e empates!");
 	} else if (vitorias + empates > 38) {
 		alert("O máximo são 38 partidas!");
