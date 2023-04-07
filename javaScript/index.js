@@ -32,10 +32,10 @@ function exibeRespostas(time, vitorias, empates, derrotas, pontuacao) {
 	var respostaRodape = document.getElementById("resposta-rodape");
 
 	respostaTime.textContent = time;
-	respostaVitorias.textContent = "Vitórias: " + vitorias;
-	respostaEmpates.textContent = "Empates: " + empates;
-	respostaDerrotas.textContent = "Derrotas: " + derrotas;
-	respostaPontuacao.textContent = "Pontuação: " + pontuacao;
+	respostaVitorias.textContent = vitorias;
+	respostaEmpates.textContent =  empates;
+	respostaDerrotas.textContent = derrotas;
+	respostaPontuacao.textContent = pontuacao;
 	respostaRodape.textContent = "Campeonato Brasileiro";
 }
 

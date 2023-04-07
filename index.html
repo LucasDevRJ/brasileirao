@@ -8,43 +8,47 @@
 </head>
 <body>
 	<p>Digite o nome do time:</p>
-	<input type="text" id="time">
+	<input type="text" id="time" class="entrada">
 
 	<p>Digite a quantidade de vitórias do time:</p>
-	<input type="text" id="vitorias">
+	<input type="text" id="vitorias" class="entrada">
 
 	<p>Digite a quantidade de empates do time:</p>
-	<input type="text" id="empates">
+	<input type="text" id="empates" class="entrada">
 
-	<button>Confirmar</button>
+	<button class="botao">Confirmar</button>
 
-	<table>
-		<thead>
-			<tr>
-				<th id="resposta-time"></th>
+	<table class="tabela">
+		<thead class="tabela-cabecalho">
+			<tr class="tabela-linha">
+				<th id="resposta-time" class="coluna-cabecalho"></th>
 			</tr>
 		</thead>
 
-		<tbody>
-			<tr>
-				<td id="resposta-vitorias"></td>
+		<tbody class="tabela-corpo">
+			<tr class="tabela-linha">
+				<td class="tabela-coluna">Vitórias</td>
+				<td id="resposta-vitorias" class="tabela-coluna"></td>
 			</tr>
 
-			<tr>
-				<td id="resposta-empates"></td>
+			<tr class="tabela-linha">
+				<td class="tabela-coluna">Empates</td>
+				<td id="resposta-empates" class="tabela-coluna"></td>
 			</tr>
 
-			<tr>
-				<td id="resposta-derrotas"></td>
+			<tr class="tabela-linha">
+				<td class="tabela-coluna">Derrotas</td>
+				<td id="resposta-derrotas" class="tabela-coluna"></td>
 			</tr>
 
-			<tr>
-				<td id="resposta-pontuacao"></td>
+			<tr class="tabela-linha">
+				<td class="tabela-coluna">Pontuação</td>
+				<td id="resposta-pontuacao" class="tabela-coluna"></td>
 			</tr>
 
-			<tfoot>
-	            <tr>
-	                <td id="resposta-rodape"></td>
+			<tfoot class="tabela-rodape">
+	            <tr class="tabela-linha">
+	                <td id="resposta-rodape" class="tabela-coluna"></td>
 	            </tr>
         	</tfoot>
 		</tbody>

@@ -1,0 +1,9 @@
+table {
+	border-width: 1px;
+	border-style: solid;
+	width: 40%;
+}
+
+tr {
+	border-width: 1px;
+}
