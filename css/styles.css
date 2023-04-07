@@ -21,10 +21,22 @@ body {
 .entrada {
 	padding: 9px 15px;
 	font-size: 17px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: #ADFF2F;
+	background-color: #FFFAFA;
 }
 
 .botao {
-	padding: 12px 35px;
+	padding: 14px 35px;
+	margin: 20px 0;
+	background-color: #ADFF2F;
+	color: #FFFFFF;
+	font-weight: bold;
+	border: none;
+	width: 12%;
+	cursor: pointer;
 }
 
 .tabela {
