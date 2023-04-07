@@ -10,3 +10,17 @@
 .botao {
 	padding: 12px 35px;
 }
+
+.tabela {
+	border-collapse: collapse;
+	width: 20%;
+}
+
+.tabela, .coluna-cabecalho, .tabela-coluna {
+	border: 1px solid;
+}
+
+.tabela-coluna {
+	width: 50%;
+	padding: 8px 6px;
+}
