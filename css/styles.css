@@ -1,3 +1,17 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.caixa {
+	background-image: url("../imagens/imagem-fundo.jpg");
+}
+
+.caixa-flex {
+	display: flex;
+	flex-direction: column;
+}
+
 .texto {
 	font-size: 20px;
 }
