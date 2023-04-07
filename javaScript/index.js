@@ -3,7 +3,7 @@ function calculaPontuacao() {
 	var campoVitorias = document.getElementById("vitorias");
 	var campoEmpates = document.getElementById("empates");
 
-	var time = parseInt(campoTime.value);
+	var time = campoTime.value;
 	var vitorias = parseInt(campoVitorias.value);
 	var empates = parseInt(campoEmpates.value);
 
@@ -18,7 +18,17 @@ function calculaPontuacao() {
 }
 
 function exibeRespostas(time, vitorias, empates, derrotas, pontuacao) {
-	
+	var respostaTime = document.getElementById("resposta-time");
+	var respostaVitorias = document.getElementById("resposta-vitorias");
+	var respostaEmpates = document.getElementById("resposta-empates");
+	var respostaDerrotas = document.getElementById("resposta-derrotas");
+	var respostaPontuacao = document.getElementById("resposta-pontuacao");
+
+	respostaTime.textContent = time;
+	respostaVitorias.textContent = vitorias;
+	respostaEmpates.textContent = empates;
+	respostaDerrotas.textContent = derrotas;
+	respostaPontuacao.textContent = pontuacao;
 }
 
 var botao = document.querySelector("button");
