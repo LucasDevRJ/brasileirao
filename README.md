@@ -16,7 +16,7 @@ O projeto "Brasileirão" se consiste em um programa que solicita dados como o no
 
 # 🛠️ Abrir e rodar o projeto
 1. Tenha uma IDE/Editor de texto como Sublime, Visual Studio e etc
-2. Baixe o <a href="https://github.com/LucasDevRJ/quantos_dias_voce_viveu/archive/refs/heads/master.zip">projeto</a>
+2. Baixe o <a href="https://github.com/LucasDevRJ/brasileirao/archive/refs/heads/main.zip">projeto</a>
 3. Coloque o projeto na IDE
 4. Aproveite o projeto
 
