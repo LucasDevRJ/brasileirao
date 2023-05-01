@@ -5,6 +5,8 @@
 ## Sobre
 O projeto "Brasileirão" se consiste em um programa que solicita dados como o nome, vitórias, empates de um time de futebol. Após o recebimento dos dados, eles são processados e devolvidos dentro de uma tabela exbindo os status do time, como por exemplo a pontuação.
 
+https://user-images.githubusercontent.com/95040236/235525541-4d579511-1fd5-4fdf-9755-7c177acbeecd.mp4
+
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=%20Finalizado&color=GREEN&style=for-the-badge)
 ![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=Desenvolvedor&message=%20LucasDevRJ&color=GREEN&style=for-the-badge)
 
